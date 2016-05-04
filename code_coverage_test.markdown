@@ -54,3 +54,16 @@ TOTAL        78     45    42%
 ```
 
 Aim for 90% and higher.
+
+## Visual Representation
+The tables above is helpful, but there is a better way: visualize the results in a webpage.
+
+Do this:
+
+```
+coverage html
+```
+
+Now the generated files are in htmlcov/ directory.
+
+Click the file you want to test; you'll see something amazing. 
