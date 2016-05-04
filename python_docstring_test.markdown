@@ -1,6 +1,6 @@
 # Docstring Test
 
-# First Example
+## First Example
 
 **Start the script with a docstring.**
 
@@ -27,10 +27,10 @@ def build_cells(width, height):
 
 Make sure that you put your test after `>>>` *(think of it as a python shell input)*, and your expected output right after lines of `>>>`. If the actual output of the function matches the expect output, you've pass the test.
 
-A (Slightly) More Complicated Example
+## A (Slightly) More Complicated Example
 In the next docstring test example, we show that we can:
 
-1. Call other functions in our doctest (we don't have to limit ourselves the current function being tested)
+1. Call other functions in our doctest (we don't have to limit ourselves to the current function being tested)
 2. Have more than 1 test
 
 ```python
@@ -55,4 +55,23 @@ def get_locations(cells):
     return monster, door, player
 ```
 
+## Run the Test
 
+In your terminal, type this:
+
+```
+python -m doctest file_name.py
+```
+
+If there is no output, you've passed all the tests.
+
+If you do fail, you'll get a constructive error message about expected value and actual value.
+
+## Limit of DocTest
+Doctest is easy to implement, but it has 2 major shortcomings:
+
+1. Each test is tightly associated with the function it test, so it's hardly reusable.
+2. Test is done by string comparison. Floating point testing is usually really hard or impossible.
+
+## More Powerful Option
+For a more powerful module, use Python Unit Test Module.
