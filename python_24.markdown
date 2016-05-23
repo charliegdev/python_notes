@@ -2,7 +2,7 @@
 
 ## Formatting Ouput
 
-### Style 1
+### Style 1 (Minimalistic)
 ```python
 greeting = "Good {}, {}. How are you doing?"
 
@@ -12,7 +12,7 @@ time = "morning"
 print greeting.format(time, name)
 ```
 
-### Style 2
+### Style 2 (Dictionary)
 ```python
 specials_text = "Good {time}! Today's specials are: {special1} and {special2}."
 
@@ -23,7 +23,7 @@ food2 = "eggs with spam"
 print specials_text.format(time=time, special1=food1, special2=food2)
 ```
 
-### Style 3
+### Style 3 (Index)
 ```python
 line = "Cities with Python meet-ups: {0}, {1}, {2}"
 
