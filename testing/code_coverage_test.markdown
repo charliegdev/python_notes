@@ -1,5 +1,11 @@
 # Code Coverage Test
 
+
+* [Concept](#concept)
+* [Install](#install)
+* [Use Coverage](#use-coverage)
+* [Visual Representation](#visual-representation)
+
 ## Concept
 Want to know what portion we have tested? The term is "coverage", and we have a library to test that.
 

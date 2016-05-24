@@ -1,5 +1,12 @@
 # Docstring Test
 
+
+* [First Example](#first-example)
+* [A (Slightly) More Complicated Example](#a-slightly-more-complicated-example)
+* [Run the Test](#run-the-test)
+* [Limit of DocTest](#limit-of-doctest)
+* [More Powerful Option](#more-powerful-option)
+
 ## First Example
 
 **Start the script with a docstring.**
