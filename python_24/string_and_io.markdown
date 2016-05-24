@@ -1,5 +1,17 @@
-# Teach Yourself Python in 24 Hours Notes
+# String and IO Handling
 
+
+* [Formatting Output](#formatting-output)
+	* [Style 1 (Minimalistic)](#style-1-minimalistic)
+	* [Style 2 (Dictionary)](#style-2-dictionary)
+	* [Style 3 (Index)](#style-3-index)
+* [`input()` VS `raw_input()`](#input-vs-raw_input)
+	* [Python 2: `input()` vs `raw_input()`](#python-2-input-vs-raw_input)
+	* [`input()` in Python 3](#input-in-python-3)
+* [Other Tips in Input Handling](#other-tips-in-input-handling)
+	* [Use `getpass` to Get Password](#use-getpass-to-get-password)
+	* [Use `strip()` to Strip Excess Spaces and More](#use-strip-to-strip-excess-spaces-and-more)
+    
 ## Formatting Output
 
 ### Style 1 (Minimalistic)
@@ -29,7 +41,8 @@ line = "Cities with Python meet-ups: {0}, {1}, {2}"
 
 print line.format("Victoria", "Vancouver", "Alberta")
 ```
-## Python 2 VS 3: `input()` VS `raw_input()`
+
+## `input()` VS `raw_input()`
 
 ### Python 2: `input()` vs `raw_input()`
 
