@@ -6,12 +6,14 @@ This is a repo for storing all my notes about Python.
 
 ### Python Tests
 
-1. [Python docstring test](python_docstring_test.markdown)
-2. [Python unit test](python_unit_test.markdown)
-3. [Test coverage report](code_coverage_test.markdown)
+1. [Python docstring test](testing/python_docstring_test.markdown)
+2. [Python unit test](testing/python_unit_test.markdown)
+3. [Test coverage report](testing/code_coverage_test.markdown)
 
 
-### [Teach Yourself Python in 24 Hours](python_24.markdown)
+### Teach Yourself Python in 24 Hours
+
+1. [String and IO Handling](python_24/string_and_io.markdown)
 
 
 
