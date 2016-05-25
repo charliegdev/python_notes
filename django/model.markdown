@@ -1,12 +1,11 @@
 # Model
 
+
 * [Define Database Tables Using Python Class](#define-database-tables-using-python-class)
 * [Use Python Shell to Test Model](#use-python-shell-to-test-model)
 * [Queries](#queries)
-* [Question: Simple Queries](#question-simple-queries)
-* [Choice: Using Foreign Key](#choice-using-foreign-key)
-* [notice since we create choices using a question, we don't specify a choice's question_id.](#notice-since-we-create-choices-using-a-question-we-dont-specify-a-choices-question_id)
-* [Use __ to go as deep as you want ](#use-__-to-go-as-deep-as-you-want-)
+	* [Question: Simple Queries](#question-simple-queries)
+	* [Choice: Using Foreign Key](#choice-using-foreign-key)
 
 ## Define Database Tables Using Python Class
 
@@ -37,7 +36,7 @@ Choice table looks like this:
 +----------+------------+-------+
 ``` 
 
-Notice that every entry in Choice table uses a foreign id (QuestionID) to refer to a question in Question table. And this makes sense: for each question in a poll, we need several choices to complete the poll, and every option created needs to belong to a question.
+Notice that every entry in Choice table uses a foreign id (Question) to refer to a question in Question table. And this makes sense: for each question in a poll, we need several choices to complete the poll, and every option created needs to belong to a question.
 
 To use Django's `model` module to create those tables, we do this:
 
@@ -115,7 +114,7 @@ We're using the Django interactive shell as an example, but the principle is the
 
 There are mainly 2 query methods: `get()` and `filter()`. `get()` will return 1 object, while `filter()` returns an iterable object.
 
-## Question: Simple Queries
+### Question: Simple Queries
 
 ```python
 >>> from polls.models import Question, Choice
@@ -145,7 +144,7 @@ DoesNotExist: Question matching query does not exist.
 <Question: What's up?>
 ```
 
-## Choice: Using Foreign Key
+### Choice: Using Foreign Key
 
 You can't simply create a Choice and set its `id` to a question's `id`:
 
@@ -184,3 +183,4 @@ A foreign key points a choice to a question; a `_set()` from a question points t
 [<Choice: Not much>, ...]
 >>> c = q.choice_set.filter(choice_text__startswith='Just hacking')
 >>> c.delete()
+```
