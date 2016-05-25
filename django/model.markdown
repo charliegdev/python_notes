@@ -14,20 +14,21 @@ As in [Tutorial 1, Part 2](https://docs.djangoproject.com/en/1.9/intro/tutorial0
 
 Question table looks like this:
 
-|      QuestionText       |  DatePublished  |
-|-------------------------|-----------------|
-| Q1 Text                 | Q1 Publish Date |
-| Q2 Text                 | Q2 Publish Date |
-| Q3 Text Q3 Publish Date |                 |
+| QuestionText | DatePublished   |
+|--------------|-----------------|
+| Q1 text      | Q1 publish date |
+| Q2 text      | Q2 publish date |
+| Q3 text      | Q3 publish date |
 
 
 Choice table looks like this:
 
-|      QuestionText       |  DatePublished  |
-|-------------------------|-----------------|
-| Q1 Text                 | Q1 Publish Date |
-| Q2 Text                 | Q2 Publish Date |
-| Q3 Text Q3 Publish Date |                 |
+| Question | ChoiceText | Votes |
+|----------|------------|-------|
+| 1        | Very Nice  | 0     |
+| 1        | So-so      | 0     |
+| 1        | Not good   | 0     |
+| 1        | Horrible   | 0     |
 
 
 Notice that every entry in Choice table uses a foreign id (QuestionID) to refer to a question in Question table. And this makes sense: for each question in a poll, we need several choices to complete the poll, and every option created needs to belong to a question.
