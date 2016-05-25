@@ -1,12 +1,12 @@
 # Model
 
-	* [Define Database Tables Using Python Class](#define-database-tables-using-python-class)
-	* [Use Python Shell to Test Model](#use-python-shell-to-test-model)
-	* [Queries](#queries)
-	* [Question: Simple Queries](#question-simple-queries)
-	* [Choice: Using Foreign Key](#choice-using-foreign-key)
-    * [notice since we create choices using a question, we don't specify a choice's question_id.](#notice-since-we-create-choices-using-a-question-we-dont-specify-a-choices-question_id)
-    * [Use __ to go as deep as you want ](#use-__-to-go-as-deep-as-you-want-)
+* [Define Database Tables Using Python Class](#define-database-tables-using-python-class)
+* [Use Python Shell to Test Model](#use-python-shell-to-test-model)
+* [Queries](#queries)
+* [Question: Simple Queries](#question-simple-queries)
+* [Choice: Using Foreign Key](#choice-using-foreign-key)
+* [notice since we create choices using a question, we don't specify a choice's question_id.](#notice-since-we-create-choices-using-a-question-we-dont-specify-a-choices-question_id)
+* [Use __ to go as deep as you want ](#use-__-to-go-as-deep-as-you-want-)
 
 ## Define Database Tables Using Python Class
 
