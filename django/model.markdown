@@ -88,7 +88,7 @@ datetime.datetime(2016, 3, 25, ...)
 [<Question: Question object>]
 ```
 
-However, that last line was not helfup. To change that, add a `__str__(self)` method to your model class to return a string you want. For example:
+However, that last line was not helpful. To change that, add a `__str__(self)` method to your model class to return a string you want. For example:
 
 ```python
 class Question(models.Model):
@@ -101,9 +101,9 @@ class Question(models.Model):
 
 We're using the Django interactive shell as an example, but the principle is the same in actual code.
 
-There are mainly 2 query method: `get()` and `filter()`. `get()` will return 1 object, while `filter()` returns an iterable object.
+There are mainly 2 query methods: `get()` and `filter()`. `get()` will return 1 object, while `filter()` returns an iterable object.
 
-Start shell.
+## Question: Simple Queries
 
 ```python
 >>> from polls.models import Question, Choice
@@ -131,3 +131,44 @@ DoesNotExist: Question matching query does not exist.
 # Since it's common to look up by primary key, Django provides a shortcut:
 >>> Question.objects.get(pk=1) # same as id=1
 <Question: What's up?>
+```
+
+## Choice: Using Foreign Key
+
+You can't simply create a Choice and set its `id` to a question's `id`:
+
+```python
+>>> c = Choice(question=1, choice_text="Not much', votes=0)
+>>> c.question
+<Question: What's up?>
+# Seems it works, right? but...
+>>> q1 = Question.objects.get(pk=1)
+>>> q1.choice_set()
+[] # nothing!
+```
+
+You have you use `_set()` on `Question` to get 'reverse direction' of foreign key:
+
+A foreign key points a choice to a question; a `_set()` from a question points to all its choices:
+
+```python
+>>> q = Question.objects.get(pk=1)
+>>> q.choice_set.all()
+[]
+>>> q.choice_set.create(choice_text='Not much', votes=0)
+>>> q.choice_set.create(choice_text='The sky', votes=0)
+>>> q.choice_set.create(choice_text='Just hacking again', votes=0)
+# notice since we create choices using a question, we don't specify a choice's question_id.
+
+>>> c.question
+<Question: What's up?>
+>>> q.choice_set.all()
+[<Choice: Not much>, <Choice: The sky>, <Choice: Just hacking again>]
+>>> q.choice_set.count()
+3
+
+# Use __ to go as deep as you want  
+>>> Choice.objects.filter(question__pub_date__year=current_year)
+[<Choice: Not much>, ...]
+>>> c = q.choice_set.filter(choice_text__startswith='Just hacking')
+>>> c.delete()
