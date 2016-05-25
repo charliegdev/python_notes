@@ -1,5 +1,13 @@
 # Model
 
+	* [Define Database Tables Using Python Class](#define-database-tables-using-python-class)
+	* [Use Python Shell to Test Model](#use-python-shell-to-test-model)
+	* [Queries](#queries)
+	* [Question: Simple Queries](#question-simple-queries)
+	* [Choice: Using Foreign Key](#choice-using-foreign-key)
+* [notice since we create choices using a question, we don't specify a choice's question_id.](#notice-since-we-create-choices-using-a-question-we-dont-specify-a-choices-question_id)
+* [Use __ to go as deep as you want ](#use-__-to-go-as-deep-as-you-want-)
+
 ## Define Database Tables Using Python Class
 
 As in [Tutorial 1, Part 2](https://docs.djangoproject.com/en/1.9/intro/tutorial02/), we need 2 database tables: question & choice.

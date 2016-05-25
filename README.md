@@ -16,4 +16,8 @@ This is a repo for storing all my notes about Python.
 1. [String and IO Handling](python_24/string_and_io.markdown)
 2. [List](python_24/list.markdown)
 
+### Django Official Tutorial
 
+1. [Model](django/model.markdown)
+2. [View](django/view.markdown)
+3. [Controller](django/controller.markdown)
