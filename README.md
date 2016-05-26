@@ -15,6 +15,7 @@ This is a repo for storing all my notes about Python.
 
 1. [String and IO Handling](python_24/string_and_io.markdown)
 2. [List](python_24/list.markdown)
+3. [Loop](python_24/loop.markdown)
 
 ### Django Official Tutorial
 

@@ -1,5 +1,18 @@
 # Loops
 
+* [`range()`](#range)
+* [A Pythonic `for` Loop](#a-pythonic-for-loop)
+	* [Basic](#basic)
+	* [Name Your Loop Variable](#name-your-loop-variable)
+	* [Loop Through a List](#loop-through-a-list)
+* [Loop Convenient Statements and Functions](#loop-convenient-statements-and-functions)
+	* [Skip Current Iteration: `continue`](#skip-current-iteration-continue)
+	* [Stop the Loop Completely: `break`](#stop-the-loop-completely-break)
+	* [`else`](#else)
+	* [Loop Variable Residual Value](#loop-variable-residual-value)
+* [`while` Loop](#while-loop)
+	* [`while true` Loop](#while-true-loop)
+
 ## `range()`
 
 ```python
