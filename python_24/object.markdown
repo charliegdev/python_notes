@@ -1,5 +1,11 @@
 # Object
 
+1. [Basic Usage](#basic-usage)
+	1. [Sample Object Creation and Instantiation](#sample-object-creation-and-instantiation)
+	2. [Constructor](#constructor)
+2. [Advanced](#advanced)
+	1. [Underscore Functions](#underscore-functions)
+
 ## Basic Usage
 
 ### Sample Object Creation and Instantiation
@@ -77,7 +83,7 @@ def main():
 if __name__ == "__main__":
     main()
 ```
-    
+
 ## Advanced
 
 ### Underscore Functions
