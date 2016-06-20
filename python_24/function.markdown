@@ -1,6 +1,15 @@
 # Function
 
-
+1. [Basic Usage](#basic-usage)
+	1. [Sample](#sample)
+	2. [Default Values](#default-values)
+	3. [Return Values](#return-values)
+	4. [Functions with Unknown Number of Parameters](#functions-with-unknown-number-of-parameters)
+	5. [`**kwargs`](#`**kwargs`)
+	6. [`*args`](#`*args`)
+2. [Notes](#notes)
+3. [Further Reading](#further-reading)
+4. [Parameters: Bind by Value or Reference](#parameters:-bind-by-value-or-reference)
 
 ## Basic Usage
 
