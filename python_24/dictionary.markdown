@@ -1,9 +1,18 @@
 # Dictionary
 
+1. [Sample Dictionary](#sample-dictionary)
+2. [Add a New Value to A Key](#add-a-new-value-to-a-key)
+3. [Modify an Existing Value](#modify-an-existing-value)
+4. [Delete an Existing Value](#delete-an-existing-value)
+5. [Check If a Key Is in a Dictionary](#check-if-a-key-is-in-a-dictionary)
+6. [Get All Keys Or All Values from a Dictionary](#get-all-keys-or-all-values-from-a-dictionary)
+7. [Compare 2 Dictionaries](#compare-2-dictionaries)
+8. [Dictionary in Python vs in Javascript](#dictionary-in-python-vs-in-javascript)
+
 Dictionary is similar to lists, in that a dictionary also stores a group of item. The differences are:
 
 1. If you view list items as key:value pairs, then each key is a number; however in a dictionary, keys can be anything; number, strings, variables, blah blah.
-2. Items in lists have an order; dictionaries don't. 
+1. Items in lists have an order; dictionaries don't.
 
 ## Sample Dictionary
 
