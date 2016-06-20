@@ -13,12 +13,15 @@ This is a repo for storing all my notes about Python.
 
 ### Teach Yourself Python in 24 Hours
 
-1. [String and IO Handling](python_24/string_and_io.markdown)
-2. [List](python_24/list.markdown)
-3. [Loop](python_24/loop.markdown)
-4. [Function](python_24/function.markdown)
-5. [Dictionary](python_24/dictionary.markdown)
-6. [Object](python_24/object.markdown)
+|        Content         |     Hour      |
+|------------------------|---------------|
+| [String and IO Handling](python_24/string_and_io.markdown) | 1, 2, 3, 4, 5 |
+| [List](python_24/list.markdown)                   | 6             |
+| [Loop](python_24/loop.markdown)                   | 7             |
+| [Function](python_24/function.markdown)               | 8             |
+| [Dictionary](python_24/dictionary.markdown)             | 9             |
+| [Object](python_24/object.markdown)                 | 10, 11        |
+
 
 ### Django Official Tutorial
 
