@@ -102,7 +102,7 @@ Use `*args` when you don't want to worry about keywords. Notice the single `*`.
 
 ## Further Reading
 
-## Parameters: Bind by Value or Reference
+###Parameters: Bind by Value or Reference
 
 Python is quite special in this respect; read [this](http://stackoverflow.com/a/986145/5827766).
 
