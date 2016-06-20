@@ -1,17 +1,20 @@
-# Function Basic Usage
+# Function
 
-## Sample Function
+
+
+## Basic Usage
+
+### Sample
 
 ```python
 def sample_func(pram1, pram2):
     statement1
     statement2
     statement3
-    
 sample_func(a, b)
 ```
 
-## Default Values
+### Default Values
 
 Python allows functions to set default values for parameters:
 
@@ -27,7 +30,7 @@ def print_welcome(first, middle='', last):
     ...
 ```
 
-## Return Values
+### Return Values
 
 You don't have to return any value with `return` statement; it can be used alone to return to caller statement. This may come handy in conditional statements:
 
@@ -42,12 +45,12 @@ else:
     return
 ```
 
-## Functions with Unknown Number of Parameters
+### Functions with Unknown Number of Parameters
 
 There are 2 ways of passing in unknown number of parameters:
 
 1. by using `**kwargs` using keywords
-2. by using `*args` using tuples
+1. by using `*args` using tuples
 
 ### `**kwargs`
 
@@ -64,7 +67,7 @@ There are 2 ways of passing in unknown number of parameters:
 Notes:
 
 1. `kwargs` are used with `**` in parameter, but not with `**` inside function body.
-2. keyword cannot be wrapped in quotes.
+1. keyword cannot be wrapped in quotes.
 
 ### `*args`
 
@@ -82,20 +85,15 @@ Use `*args` when you don't want to worry about keywords. Notice the single `*`.
 (3, 4, 5)
 ```
 
+## Notes
 
+1. Don't forget to call your function.
+1. It's a convention to create a `main()` function, and use that function as the main entry point. (Unlike C, the name of the function doesn't have to be "main")
+1. Use `if __"name__" == "__main__"`
 
+## Further Reading
 
-
-
-# Notes
-
-1. Don't forget to call your function. 
-2. It's a convention to create a `main()` function, and use that function as the main entry point. (Unlike C, the name of the function doesn't have to be "main")
-3. Use `if __"name__" == "__main__"`
-
-# Further Reading:
-
-## Parameters: Bind by Value or Reference?
+## Parameters: Bind by Value or Reference
 
 Python is quite special in this respect; read [this](http://stackoverflow.com/a/986145/5827766).
 

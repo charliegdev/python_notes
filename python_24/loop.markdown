@@ -102,7 +102,7 @@ else
     C
 ```
 
-In the above code, code block B & C are mutually exclusive: if B runs, and we call `break`, we won't run code block C under else; otherwise, if B never runs, and `break` is never called, we run code block C.
+In the above code, code block B & C are mutually exclusive: if B runs, and we call `break`, we won't run code block C under `else`; otherwise, if B never runs, and `break` is never called, we run code block C.
 
 ### Loop Variable Residual Value
 
