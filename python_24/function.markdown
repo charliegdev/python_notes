@@ -9,7 +9,7 @@
 	6. [`*args`](#`*args`)
 2. [Notes](#notes)
 3. [Further Reading](#further-reading)
-4. [Parameters: Bind by Value or Reference](#parameters:-bind-by-value-or-reference)
+	1. [Parameters: Bind by Value or Reference](#parameters:-bind-by-value-or-reference)
 
 ## Basic Usage
 
