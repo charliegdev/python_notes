@@ -47,7 +47,7 @@ class Student(object):
         while True:
             grade = raw_input("What is the students grade ?[K, 1-5] ")
             if grade.lower() not in ['k', '1', '2', '3', '4', '5']:
-                print("I'm sorry, but {} isn't valid.".format(grade)
+                print("I'm sorry, but {} isn't valid.".format(grade))
             else:
                 return grade
     
