@@ -17,6 +17,7 @@ This is a repo for storing all my notes about Python.
 2. [List](python_24/list.markdown)
 3. [Loop](python_24/loop.markdown)
 4. [Function](python_24/function.markdown)
+5. [Dictionary](python_24/dictionary.markdown)
 
 ### Django Official Tutorial
 
