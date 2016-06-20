@@ -4,13 +4,6 @@ This is a repo for storing all my notes about Python.
 
 ## Table of Contents
 
-### Python Tests
-
-1. [Python docstring test](testing/python_docstring_test.markdown)
-2. [Python unit test](testing/python_unit_test.markdown)
-3. [Test coverage report](testing/code_coverage_test.markdown)
-
-
 ### Teach Yourself Python in 24 Hours
 
 |        Content         |     Hour      |
@@ -21,6 +14,12 @@ This is a repo for storing all my notes about Python.
 | [Function](python_24/function.markdown)               | 8             |
 | [Dictionary](python_24/dictionary.markdown)             | 9             |
 | [Object](python_24/object.markdown)                 | 10, 11        |
+
+### Python Tests
+
+1. [Python docstring test](testing/python_docstring_test.markdown)
+2. [Python unit test](testing/python_unit_test.markdown)
+3. [Test coverage report](testing/code_coverage_test.markdown)
 
 
 ### Django Official Tutorial
