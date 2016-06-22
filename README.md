@@ -13,7 +13,7 @@ This is a repo for storing all my notes about Python.
 | [Loop](python_24/loop.markdown)                   | 7             |
 | [Function](python_24/function.markdown)               | 8             |
 | [Dictionary](python_24/dictionary.markdown)             | 9             |
-| [Object](python_24/object.markdown)                 | 10, 11        |
+| [Object](python_24/object.markdown)                 | 10, 11, 12        |
 
 ### Python Tests
 
