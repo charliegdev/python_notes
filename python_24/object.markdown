@@ -5,6 +5,10 @@
 	2. [Constructor](#constructor)
 2. [Advanced](#advanced)
 	1. [Underscore Functions](#underscore-functions)
+		1. [`__eq__()`](#`__eq__()`)
+		2. [More Comparisons](#more-comparisons)
+	2. [Print](#print)
+3. [Inheritance](#inheritance)
 
 ## Basic Usage
 
